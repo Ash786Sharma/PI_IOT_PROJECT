@@ -1,0 +1,31 @@
+.switchContainer {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.switchContainerInput {
+  height: 28vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.processinput {
+  height: 10vh;
+  width: 100%;
+  background-color: var(--main-bg);
+  padding-left: 0.8vmax;
+  padding-right: 1vmax;
+  border: solid var(--main-color);
+  border-radius: var(--border-radius);
+  font-size: 60px;
+  color: var(--txt-color);
+}
+h3 {
+  font-size: xx-large;
+  color: var(--txt-color);
+}

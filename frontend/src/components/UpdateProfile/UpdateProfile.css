@@ -1,0 +1,98 @@
+.updateProfileForm {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+.updateProfileForm > div {
+  display: flex;
+  margin: 4vmax;
+  width: 100%;
+  height: 65vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#updateProfileImage > img {
+  width: 80%;
+  height: 70%;
+  margin-bottom: 2vmax;
+  border-radius: 100%;
+  transition: all 0.5s;
+  box-shadow: var(--box-shadow);
+}
+#updateProfileImage > img:hover {
+  transform: scale(1.05);
+}
+#updateProfileImage > input {
+  display: flex;
+  padding: 0%;
+}
+
+#updateProfileImage > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 5vh;
+  border: 1px solid var(--second-color);
+  border-radius: var(--border-radius);
+  margin: 0%;
+  font: 400 1vmax cursive;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+}
+
+#updateProfileImage > input::file-selector-button:hover {
+  background-color: var(--second-color);
+  color: black;
+}
+.updateProfileForm > div:last-child {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 6vmax;
+  box-sizing: border-box;
+}
+.updateProfileBtn {
+  background-color: var(--main-bg);
+  border: 1px solid var(--second-color);
+  color: var(--txt-color);
+  font: 400 1vmax "Roboto";
+  width: 75%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: var(--border-radius);
+  outline: none;
+  box-shadow: var(--box-shadow);
+}
+
+.updateProfileBtn:hover {
+  background-color: var(--main-color);
+  color: black;
+}
+
+.updateProfileName > input,
+.updateProfileEmail > input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--main-color);
+  border-radius: var(--border-radius);
+  font: 400 1vmax cursive;
+  outline: none;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+}
+.updateProfileName > svg,
+.updateProfileEmail > svg {
+  position: absolute;
+  transform: translateX(1vmax) translateY(0.5vmax);
+  font-size: 2.5vmax;
+  color: var(--main-color);
+}

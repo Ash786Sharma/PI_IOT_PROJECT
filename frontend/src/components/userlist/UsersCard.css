@@ -1,0 +1,105 @@
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 4vmax;
+}
+.paginationBox span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2vmax;
+  color: var(--second-color);
+}
+.paginationBox .current {
+  color: var(--main-color);
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+.prevButton {
+  padding: 0;
+  background-color: var(--second-bg);
+  margin: 2vmax;
+}
+.prevButton svg {
+  font-size: 4vmax;
+  color: var(--second-color);
+}
+.prevButton svg:hover {
+  color: var(--main-color);
+  transform: scale(1.06);
+}
+.nextButton {
+  padding: 0;
+  background-color: var(--second-bg);
+  margin: 2vmax;
+}
+.nextButton svg {
+  font-size: 4vmax;
+  color: var(--second-color);
+}
+.nextButton svg:hover {
+  color: var(--main-color);
+  transform: scale(1.06);
+}
+.usersContainer {
+  height: 45vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.infoContainer {
+  height: 80%;
+  text-align: center;
+}
+.infoContainer img {
+  width: 60%;
+  height: 50%;
+  border-radius: 100%;
+}
+.infoContainer h3 {
+  margin: 0.4vmax;
+  font-size: 1.5vmax;
+}
+.infoContainer p {
+  margin: 0.4vmax;
+  font-size: 1.4vmax;
+}
+.green {
+  color: green;
+  font-weight: 600;
+}
+.red {
+  color: red;
+  font-weight: 600;
+}
+.optionsContainer {
+  display: flex;
+  margin: 0.4vmax;
+}
+.optionsContainer a svg {
+  margin: 0.2vmax;
+  font-size: 2.4vmax;
+  color: var(--txt-color);
+  transform: translateY(0.5vmax);
+  transition: all 0.5s;
+}
+.optionsContainer a svg:hover {
+  color: var(--main-color);
+  transform: scale(1.02);
+}
+.optionsContainer button {
+  margin: 0.2vmax;
+}
+.optionsContainer button:hover {
+  background-color: var(--main-bg);
+}
+.optionsContainer button svg {
+  color: var(--txt-color);
+  font-size: 2.4vmax;
+  transition: all 0.5s;
+}
+.optionsContainer button svg:hover {
+  color: var(--main-color);
+  transform: scale(1.3);
+}

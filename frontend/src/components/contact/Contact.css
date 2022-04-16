@@ -1,0 +1,27 @@
+.contactContainer {
+  height: 20vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailBtn {
+  text-decoration: none;
+  transform: scale(0);
+  animation: mailBtnAnimation 1s forwards;
+}
+
+.mailBtn > button {
+  text-decoration: none;
+  font: 400 2vmax "Roboto";
+  color: var(--second-color);
+  padding: 2vmax;
+}
+.mailBtn > button:hover {
+  background-color: var(--main-bg);
+  color: var(--main-color);
+}
+@keyframes mailBtnAnimation {
+  to {
+    transform: scale(1.05);
+  }
+}

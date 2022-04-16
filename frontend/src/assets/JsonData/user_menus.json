@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "bx bx-user",
+    "content": "Profile",
+    "route": "/Profile"
+  },
+  {
+    "icon": "bx bx-upload",
+    "content": "Update Profile",
+    "route": "/updateProfile"
+  },
+  {
+    "icon": "bx bx-key",
+    "content": "Update Password",
+    "route": "/updatePassword"
+  },
+  {
+    "icon": "bx bx-log-out-circle bx-rotate-180",
+    "content": "Logout",
+    "route": "/logout"
+  }
+]

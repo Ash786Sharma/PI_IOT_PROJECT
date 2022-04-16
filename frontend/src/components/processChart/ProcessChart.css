@@ -1,0 +1,8 @@
+.chart {
+  padding: 30px;
+  height: 60vh;
+  margin-bottom: 30px;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}

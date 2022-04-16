@@ -1,0 +1,51 @@
+.messageBox {
+  width: 50%;
+  padding: 1vmax;
+  margin-left: 2vmax;
+  margin-right: 2vmax;
+  margin-top: 1vmax;
+  margin-bottom: 1vmax;
+  display: flex;
+}
+.message-content {
+  width: fit-content;
+  background-color: brown;
+  color: var(--txt-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1vmax;
+  padding-bottom: 1vmax;
+  margin-bottom: 0.5vmax;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.message-meta {
+  color: var(--txt-color);
+  margin: 0.5vmax;
+  padding: 0.2vmax;
+  display: flex;
+}
+.message-meta > p {
+  margin: 0.2vmax;
+}
+.right {
+  float: right;
+  justify-content: flex-end;
+}
+.left {
+  float: left;
+  justify-content: flex-start;
+}
+.right-msg {
+  background-color: var(--second-color);
+}
+.left-msg {
+  background-color: var(--main-color);
+}
+.right-meta {
+  justify-content: flex-end;
+}
+.left-meta {
+  justify-content: flex-start;
+}

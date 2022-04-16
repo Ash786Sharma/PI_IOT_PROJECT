@@ -1,0 +1,30 @@
+.aboutContainer {
+  height: 40vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vmax;
+}
+.aboutLink {
+  margin-top: 1vmax;
+}
+.aboutLink > a {
+  margin: 1vmax;
+}
+.aboutLink > a > svg {
+  font-size: 2vmax;
+  transition: all 0.5s;
+}
+.aboutLink > a > svg:hover {
+  transform: scale(1.2);
+}
+.aboutImage > img {
+  border-radius: var(--border-radius);
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "display_name": "Dashboard",
+    "route": "/account/dashboard",
+    "icon": "bx bx-category-alt"
+  },
+  {
+    "display_name": "controls",
+    "route": "/account/controls",
+    "icon": "bx bx-wrench"
+  },
+  {
+    "display_name": "Chat",
+    "route": "/account/chat",
+    "icon": "bx bx-message-dots"
+  },
+  {
+    "display_name": "Users",
+    "route": "/account/users",
+    "icon": "bx bx-user-pin"
+  },
+  {
+    "display_name": "About",
+    "route": "/account/about",
+    "icon": "bx bx-help-circle"
+  },
+  {
+    "display_name": "Contact",
+    "route": "/account/contact",
+    "icon": "bx bxs-contact"
+  }
+]

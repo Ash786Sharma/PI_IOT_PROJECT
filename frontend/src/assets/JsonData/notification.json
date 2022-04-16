@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "bx bx-error",
+    "content": "Filling done"
+  },
+  {
+    "icon": "bx bx-error",
+    "content": "Temperature over"
+  },
+  {
+    "icon": "bx bx-error",
+    "content": "Drain done"
+  },
+  {
+    "icon": "bx bx-error",
+    "content": "Level Over Flow"
+  },
+  {
+    "icon": "bx bx-error",
+    "content": "Sov-1 Feedback error"
+  }
+]

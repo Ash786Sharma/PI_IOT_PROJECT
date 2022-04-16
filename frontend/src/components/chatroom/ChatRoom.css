@@ -1,0 +1,58 @@
+.chatContainer {
+  background-color: none;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.chatBox {
+  border: none;
+  width: 100%;
+  height: 85%;
+  box-sizing: border-box;
+}
+.inputBox {
+  height: 15%;
+  width: 100%;
+  padding: 0.5vmax;
+  margin-bottom: 2vmax;
+  border: none;
+  display: flex;
+  box-sizing: border-box;
+}
+#chatInput {
+  width: 70%;
+  border: 0.2vmax solid var(--main-color);
+  border-radius: var(--border-radius);
+  padding: 2vmax;
+  margin-left: 2vmax;
+  margin-right: 2vmax;
+  box-sizing: border-box;
+  background-color: var(--main-bg);
+  color: var(--txt-color);
+  outline: none;
+  font-size: 1.2vmax;
+}
+.sendBtn {
+  background-color: var(--second-color);
+  color: var(--txt-white);
+  border-radius: var(--border-radius);
+  border: none;
+  padding-bottom: 0.6vmax;
+  width: 20%;
+  font-size: 1.8vmax;
+  transition: all 0.5s;
+}
+.sendBtn:hover {
+  background-color: var(--main-color);
+  transform: scale(1.05);
+}
+.sendBtn > svg {
+  font-size: 2.2vmax;
+  color: white;
+  margin-right: 0.5vmax;
+  transform: translateY(0.5vmax);
+}
