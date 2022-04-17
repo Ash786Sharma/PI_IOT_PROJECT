@@ -149,7 +149,7 @@ Components used:
 Raspberry pi 3B.
 
 <img src="frontend\src\assets\images\Raspberrypi 3b.png" width="360" height="260">
-<img src="frontend\src\assets\images\Raspberrypi pinout.png" width="360" height="260">
+<img src="frontend\src\assets\images\raspberrypi pinout.png" width="360" height="260">
 
 LM36 Temperature sensor.
 
@@ -168,7 +168,7 @@ Mcp3008 Adc Ic for analog to digital conversion of temprature signal.
 
 4 X Sov valves
 
-<img src="frontend\src\assets\images\sov.png" width="360" height="260">
+<img src="frontend\src\assets\images\Sov.png" width="360" height="260">
 
 Dc motor for agitator
 
