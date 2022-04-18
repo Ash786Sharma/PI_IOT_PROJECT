@@ -4,7 +4,7 @@ import socketIO from "socket.io-client";
 import ProgressBar from "../components/progressbar/ProgressBar";
 import PidDiagram from "../components/piddiagram/PidDiagram";
 import ProcessChart from "../components/processChart/ProcessChart";
-const ENDPOINT = "http://localhost:4000/";
+const ENDPOINT = "https://pi-iot-project.herokuapp.com/";
 let socket;
 const TIME_RANGE_IN_MILLISECONDS = 300000;
 const Dashboard = () => {
