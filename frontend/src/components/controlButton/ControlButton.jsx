@@ -3,7 +3,7 @@ import socketIO from "socket.io-client";
 import { useAlert } from "react-alert";
 import { Switch } from "@mui/material/";
 import "./ControlButton.css";
-const ENDPOINT = "http://localhost:4000/";
+const ENDPOINT = "https://pi-iot-project.herokuapp.com/";
 let socket;
 
 const ControlButton = () => {

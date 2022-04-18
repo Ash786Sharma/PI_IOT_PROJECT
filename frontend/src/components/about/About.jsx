@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import "./About.css";
 import { YouTube, Instagram, LinkedIn } from "@mui/icons-material";
-import founder_image from "../../assets/images/founder.jpg";
 
 const About = () => {
   return (
@@ -15,7 +14,9 @@ const About = () => {
                 <img
                   width={850}
                   height={450}
-                  src={founder_image}
+                  src={
+                    "https://res.cloudinary.com/da7rhhzzp/image/upload/v1650274785/avatar/founder_qnm7rd.jpg"
+                  }
                   alt="founderImage"
                 />
               </div>

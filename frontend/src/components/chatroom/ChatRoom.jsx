@@ -7,7 +7,7 @@ import socketIO from "socket.io-client";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useAlert } from "react-alert";
-const ENDPOINT = "http://localhost:4000/";
+const ENDPOINT = "https://pi-iot-project.herokuapp.com/";
 let socket;
 
 const ChatRoom = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import socketIO from "socket.io-client";
 import "./PidDiagram.css";
-const ENDPOINT = "http://localhost:4000/";
+const ENDPOINT = "https://pi-iot-project.herokuapp.com/";
 let socket;
 var heater1;
 var heater2;
@@ -9,11 +9,11 @@ var heater2;
 const PidDiagram = () => {
   const pump = useRef(null);
   const agitator = useRef(null);
-  const heater = useRef();
-  const sov1 = useRef();
-  const sov2 = useRef();
-  const sov3 = useRef();
-  const sov4 = useRef();
+  const heater = useRef(null);
+  const sov1 = useRef(null);
+  const sov2 = useRef(null);
+  const sov3 = useRef(null);
+  const sov4 = useRef(null);
 
   useEffect(() => {
     socket = socketIO(ENDPOINT, { transports: [`websocket`] });
