@@ -12,8 +12,8 @@ const About = () => {
             <div className="aboutContainer">
               <div className="aboutImage">
                 <img
-                  width={850}
-                  height={450}
+                  width={750}
+                  height={350}
                   src={
                     "https://res.cloudinary.com/da7rhhzzp/image/upload/v1650274785/avatar/founder_qnm7rd.jpg"
                   }
