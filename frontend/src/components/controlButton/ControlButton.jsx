@@ -233,7 +233,7 @@ const ControlButton = () => {
       <div className="col-2">
         <div className="card">
           <div className="switchContainer">
-            <h3>Heater-1</h3>
+            <h3>Heater1</h3>
             <Switch checked={heater1} onChange={heater1Change} />
           </div>
         </div>
@@ -247,7 +247,7 @@ const ControlButton = () => {
       <div className="col-2">
         <div className="card">
           <div className="switchContainer">
-            <h3>Heater-2</h3>
+            <h3>Heater2</h3>
             <Switch checked={heater2} onChange={heater2Change} />
           </div>
         </div>

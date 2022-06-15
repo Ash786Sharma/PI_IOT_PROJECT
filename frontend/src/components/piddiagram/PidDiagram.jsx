@@ -118,31 +118,31 @@ const PidDiagram = () => {
         />
         <text
           className="cls-2"
-          transform="translate(102.00 550.00) scale(0.71 1)"
+          transform="translate(109.00 550.00) scale(0.71 1)"
         >
           Sov1
         </text>
         <text
           className="cls-2"
-          transform="translate(160.00 465.00) scale(0.71 1)"
+          transform="translate(175.00 465.00) scale(0.71 1)"
         >
           Sov2
         </text>
         <text
           className="cls-2"
-          transform="translate(300.00 470.00) scale(0.71 1)"
+          transform="translate(315.00 470.00) scale(0.71 1)"
         >
           Heater
         </text>
         <text
           className="cls-2"
-          transform="translate(270.00 50.00) scale(0.71 1)"
+          transform="translate(290.00 50.00) scale(0.71 1)"
         >
           Agitator
         </text>
         <text
           className="cls-2"
-          transform="translate(190.00 250.00) scale(0.71 1)"
+          transform="translate(200.00 250.00) scale(0.71 1)"
         >
           Reactor
         </text>
@@ -154,13 +154,13 @@ const PidDiagram = () => {
         </text>
         <text
           className="cls-2"
-          transform="translate(654.00 550.00) scale(0.71 1)"
+          transform="translate(659.00 550.00) scale(0.71 1)"
         >
           Sov3
         </text>
         <text
           className="cls-2"
-          transform="translate(610.00 335.00) scale(0.71 1)"
+          transform="translate(610.00 332.00) scale(0.71 1)"
         >
           Sov4
         </text>
@@ -174,7 +174,7 @@ const PidDiagram = () => {
         />
         <text
           className="cls-2"
-          transform="translate(406.28 47.27) scale(0.71 1)"
+          transform="translate(409.00 44.27) scale(0.71 1)"
         >
           M
         </text>
@@ -360,7 +360,7 @@ const PidDiagram = () => {
         />
         <text
           className="cls-3"
-          transform="translate(-40.00 550.33) scale(0.84 1)"
+          transform="translate(5.00 550.33) scale(0.84 1)"
         >
           Supply
         </text>
