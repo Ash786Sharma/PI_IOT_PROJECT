@@ -9,7 +9,6 @@
 .userContainer > div {
   display: flex;
   margin: 4vmax;
-  padding-left: 8vmax;
   width: 100%;
   height: 65vh;
   flex-direction: column;
@@ -18,8 +17,8 @@
 }
 
 .userContainer > div:first-child > img {
-  width: 70%;
-  height: 80%;
+  width: 100%;
+  height: 90%;
   border-radius: 100%;
   transition: all 0.5s;
   box-shadow: var(--box-shadow);

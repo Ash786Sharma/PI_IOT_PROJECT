@@ -60,6 +60,7 @@
 .infoContainer h3 {
   margin: 0.4vmax;
   font-size: 1.5vmax;
+  word-wrap: break-word;
 }
 .infoContainer p {
   margin: 0.4vmax;

@@ -14,7 +14,7 @@ import ForgotPassword from "./components/forgotPassword/ForgotPassword";
 import ResetPassword from "./components/resetPassword/ResetPassword";
 import NotFound from "./components/not found/NotFound";
 
-window.addEventListener("contextmenu", (e) => e.preventDefault());
+// window.addEventListener("contextmenu", (e) => e.preventDefault());
 
 const App = () => {
   useEffect(() => {
