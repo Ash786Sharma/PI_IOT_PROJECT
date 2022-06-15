@@ -4,7 +4,6 @@
 /backend/config/config.env
 /node_modules
 /frontend/node_modules
-/privious
 /.pnp
 .pnp.js
 /frontend/.pnp

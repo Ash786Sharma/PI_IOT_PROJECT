@@ -9,7 +9,7 @@ const ProgressBar = ({ data, minRange, maxRange }) => {
         value={data}
         minValue={minRange}
         maxValue={maxRange}
-        text={`${data}%`}
+        text={maxRange === 150 ? `${data}℃` : `${data}%`}
       />
     </div>
   );
