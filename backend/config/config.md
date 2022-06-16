@@ -1,4 +1,4 @@
-PORT = "Your port"
+PORT = "Your port have"
 
 NODE_ENV = "PRODUCTION" for runing local delete this line and for diploying web app on heroku add this line
 
