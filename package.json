@@ -26,5 +26,13 @@
     "nodemailer": "^6.7.2",
     "socket.io": "^4.4.1",
     "validator": "^13.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ash786Sharma/PI_IOT_PROJECT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ash786Sharma/PI_IOT_PROJECT/issues"
+  },
+  "homepage": "https://github.com/Ash786Sharma/PI_IOT_PROJECT#readme"
 }
